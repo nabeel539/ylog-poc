@@ -16,6 +16,7 @@ export class AppComponent {
   Wirelessformapprovalflow: any;
   title = 'v2_angularWF';
   disabled = true;
+  p:any
   // datatable
   table:any;
   constructor(private WFSERVICEVIEW: WirelessServiceService, private datatable: WfservicedatatableTsService, private approvalflow: WfservicedatatableTsService) {
@@ -46,12 +47,12 @@ export class AppComponent {
 
     })
   }
-  showViewForm() {
-    const modal = document.getElementById('Viewwirelessform');
-    if (modal != null) {
-      modal.style.display = 'block';
-    }
-  }
+  // showViewForm() {
+  //   const modal = document.getElementById('modalID');
+  //   if (modal != null) {
+  //     modal.style.display = 'block';
+  //   }
+  // }
   showViewcheckbox() {
     if ($(".viewcheckBox").is(":checked")) {
       this.disabled = false;
@@ -65,12 +66,41 @@ export class AppComponent {
     
 
   }
-  // const table = document.getElementById('#example');
+
  
-  // table.('click', 'tbody tr', function () {
-  //     let data = table.row(this).data();
-   
-  //     alert('You clicked on ' + data[0] + "'s row");
-  // });
+
+  // openDialog() {
+  //   let modal = document.querySelector("#static-modal");
+  //   modal?.classList.replace("hidden", "block")
+  //   // alert( modal?.classList)
+  // }
+
+  // closeDialog(){
+  // let modal = document.querySelector("#static-modal");
+  //  modal?.classList.replace("block", "hidden")
+
+  // }
+
+
+
+  showViewForm() {
+    const modal = document.getElementById('default-modal');
+    if (modal != null) {
+      modal.style.display = 'block';
+    }
+    
+  }
+  CloseModal() {
+    const modal = document.getElementById('default-modal');
+    if (modal != null) {
+      modal.style.display = 'none';
+    }
+  }
+
+
 
 }
+
+
+
+
