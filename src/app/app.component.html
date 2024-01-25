@@ -1,0 +1,200 @@
+<section class="container mx-auto p-6 font-mono">
+  <div class="w-full mb-8 overflow-x-auto shadow-lg">
+    <table class="w-full text-left table-auto min-w-max rounded-lg">
+      <thead class="bg-[#3c8dbc] text-[#FFF]">
+        <tr class="border-b-1 border-b-gray-500 shadow-md ">
+          <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50 border border-l-white border-r-white ">
+            <p class="block font-sans text-sm antialiased font-semibold leading-normal text-blue-gray-900 ">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="w-4 h-4 fill-white" >
+                <path
+                  d="M151.6 469.6C145.5 476.2 137 480 128 480s-17.5-3.8-23.6-10.4l-88-96c-11.9-13-11.1-33.3 2-45.2s33.3-11.1 45.2 2L96 365.7V64c0-17.7 14.3-32 32-32s32 14.3 32 32V365.7l32.4-35.4c11.9-13 32.2-13.9 45.2-2s13.9 32.2 2 45.2l-88 96zM320 480c-17.7 0-32-14.3-32-32s14.3-32 32-32h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H320zm0-128c-17.7 0-32-14.3-32-32s14.3-32 32-32h96c17.7 0 32 14.3 32 32s-14.3 32-32 32H320zm0-128c-17.7 0-32-14.3-32-32s14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H320zm0-128c-17.7 0-32-14.3-32-32s14.3-32 32-32H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H320z" />
+              </svg>
+            </p>
+          </th>
+          <th class="p-4 border-b border-blue-gray-100 bg-blue-gray-50 border border-l-white border-r-white "
+            *ngFor="let header of Wirelessformdatatableheader">
+            <p class="block font-sans text-sm antialiased font-semibold leading-none text-blue-gray-900 ">
+              {{header.columnLabel}}
+            </p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="even:bg-gray-400/15" *ngFor="let group of Wirelessformdatatabledata">
+          <td class="p-4 ">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              <label class="relative flex items-center justify-center p-3 rounded-full cursor-pointer" htmlFor="check">
+                <input type="checkbox"
+                  class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border border-[#3c8dbc] transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-[#3c8dbc] checked:bg-[#3c8dbc] checked:before:bg-[#3c8dbc] hover:before:opacity-10"
+                  id="check" />
+                <span
+                  class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" viewBox="0 0 20 20" fill="currentColor"
+                    stroke="currentColor" stroke-width="1">
+                    <path fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                </span>
+              </label>
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.sequenceNumber}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib1}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib13}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib15}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib16}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib17}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib31}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib32}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib33}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib34}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.approvalStepName}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib19}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib20}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib61}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib62}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib70}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.attrib734}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.formattedSubmittedBy}}
+            </p>
+          </td>
+          <td class="p-4">
+            <p class="block font-sans text-sm antialiased font-normal leading-normal text-blue-gray-900">
+              {{group.createdOn}}
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- pagination  starts Here-->
+  <div class="flex items-center gap-4 justify-center my-6">
+    <button disabled
+      class="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+      type="button">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+        aria-hidden="true" class="w-4 h-4">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"></path>
+      </svg>
+      Previous
+    </button>
+    <div class="flex items-center gap-2">
+      <button
+        class="relative h-10 max-h-[40px] w-10 max-w-[40px] select-none rounded-lg bg-gray-900 text-center align-middle font-sans text-xs font-medium uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        type="button">
+        <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+          1
+        </span>
+      </button>
+      <button
+        class="relative h-10 max-h-[40px] w-10 max-w-[40px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        type="button">
+        <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+          2
+        </span>
+      </button>
+      <button
+        class="relative h-10 max-h-[40px] w-10 max-w-[40px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        type="button">
+        <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+          3
+        </span>
+      </button>
+      <button
+        class="relative h-10 max-h-[40px] w-10 max-w-[40px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        type="button">
+        <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+          4
+        </span>
+      </button>
+      <button
+        class="relative h-10 max-h-[40px] w-10 max-w-[40px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-gray-900 transition-all hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        type="button">
+        <span class="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+          5
+        </span>
+      </button>
+    </div>
+    <button
+      class="flex items-center gap-2 px-6 py-3 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+      type="button">
+      Next
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+        aria-hidden="true" class="w-4 h-4">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+      </svg>
+    </button>
+  </div>
+  <!-- pagination  ends Here-->
+</section>

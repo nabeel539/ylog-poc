@@ -1,0 +1,755 @@
+{
+    "results": {
+        "isApprovalFlowExist": true,
+        "approvalStepsInfo": [
+            {
+                "approvalStepName": "Entered",
+                "approvalStepId": 100120,
+                "approvalStepSequence": 1,
+                "entityId": null,
+                "emailCopyTo": "",
+                "hasNextSteps": true,
+                "transitionAllowedRoles": [
+                    10015116,
+                    10015136,
+                    10015057,
+                    10010244
+                ],
+                "assignedRoles": [
+                    {
+                        "roleId": 10015225,
+                        "roleName": "MOLSON-COORS GA HORNELL",
+                        "roleCode": "MOLSON-COORS GA HORNELL",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015226,
+                        "roleName": "US BEVERAGE ARIZONA",
+                        "roleCode": "US BEVERAGE ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015227,
+                        "roleName": "MAPLE AND US BEV PACKERS",
+                        "roleCode": "MAPLE AND US BEV PACKERS",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015217,
+                        "roleName": "DRINKPAK HORN",
+                        "roleCode": "DRINKPAK HORN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015218,
+                        "roleName": "DRINKPAK CONDOR HORN",
+                        "roleCode": "DRINKPAK CONDOR HORN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015219,
+                        "roleName": "DRINKPAK HORNELL",
+                        "roleCode": "DRINKPAK HORNELL",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015220,
+                        "roleName": "CAROLINA BEV HORNELL",
+                        "roleCode": "CAROLINA BEV HORNELL",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015221,
+                        "roleName": "CITY BREWING HORNELL",
+                        "roleCode": "CITY BREWING HORNELL",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015222,
+                        "roleName": "MAPLE BEV PACKERS",
+                        "roleCode": "MAPLE BEV PACKERS",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015223,
+                        "roleName": "KRAFT CANISTER HORN",
+                        "roleCode": "KRAFT CANISTER HORN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015224,
+                        "roleName": "KRAFT HEINZ HORN",
+                        "roleCode": "KRAFT HEINZ HORN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015096,
+                        "roleName": "PORTAL_USER_ROLE",
+                        "roleCode": "PORTAL_USER_ROLE",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10012265,
+                        "roleName": "HORN",
+                        "roleCode": "HORN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015209,
+                        "roleName": "LYONS MAGNUS-WEST FOR ARIZONA",
+                        "roleCode": "LYONS MAGNUS-WEST FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015081,
+                        "roleName": "NATURAL ING",
+                        "roleCode": "NATURAL ING",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015082,
+                        "roleName": "MAPLE",
+                        "roleCode": "MAPLE",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015210,
+                        "roleName": "SEA BREEZE FOR ARIZONA",
+                        "roleCode": "SEA BREEZE FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015083,
+                        "roleName": "CONGO SWISS",
+                        "roleCode": "CONGO SWISS",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015211,
+                        "roleName": "UNION BEVERAGE PACKERS FOR ARIZONA",
+                        "roleCode": "UNION BEVERAGE PACKERS FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10014956,
+                        "roleName": "ALANI NUTRITION",
+                        "roleCode": "ALANI NUTRITION",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015084,
+                        "roleName": "CONGO AUSTRALIA",
+                        "roleCode": "CONGO AUSTRALIA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015212,
+                        "roleName": "MT. FRANKLIN",
+                        "roleCode": "MT. FRANKLIN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015085,
+                        "roleName": "ALANI NUTRITION UK",
+                        "roleCode": "ALANI NUTRITION UK",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015213,
+                        "roleName": "NIAGARA BOTTLING  FOR ARIZONA",
+                        "roleCode": "NIAGARA BOTTLING  FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015214,
+                        "roleName": "VOBEV FOR ARIZONA BEVERAGES USA, LLC",
+                        "roleCode": "VOBEV FOR ARIZONA BEVERAGES USA, LLC",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015215,
+                        "roleName": "FLORIDA DISTILLERS HORN",
+                        "roleCode": "FLORIDA DISTILLERS HORN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015216,
+                        "roleName": "FLORIDA DISTILLERS HORNELL",
+                        "roleCode": "FLORIDA DISTILLERS HORNELL",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015201,
+                        "roleName": "AMERIPEC  INC. FOR ARIZONA",
+                        "roleCode": "AMERIPEC  INC. FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015202,
+                        "roleName": "CITRUS WORLD INC. FOR ARIZONA",
+                        "roleCode": "CITRUS WORLD INC. FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015203,
+                        "roleName": "HORN-CANADIAN BEV",
+                        "roleCode": "HORN-CANADIAN BEV",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015204,
+                        "roleName": "MTN PURE TEXAS LLC FOR ARIZONA",
+                        "roleCode": "MTN PURE TEXAS LLC FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015205,
+                        "roleName": "INOSIP SOLUTIONS LLC",
+                        "roleCode": "INOSIP SOLUTIONS LLC",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015206,
+                        "roleName": "POLAR BEVERAGES FOR ARIZONA",
+                        "roleCode": "POLAR BEVERAGES FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015207,
+                        "roleName": "SUN RYPE USA",
+                        "roleCode": "SUN RYPE USA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015208,
+                        "roleName": "DRINKPAK",
+                        "roleCode": "DRINKPAK",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015080,
+                        "roleName": "PRIME HYDRATION UK",
+                        "roleCode": "PRIME HYDRATION UK",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10012264,
+                        "roleName": "US BEV PACKERS",
+                        "roleCode": "US BEV PACKERS",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015257,
+                        "roleName": "COMERCIALIZADOR JUMEX MEXICO",
+                        "roleCode": "COMERCIALIZADOR JUMEX MEXICO",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015258,
+                        "roleName": "JUMEX-JUMEX MEXICO",
+                        "roleCode": "JUMEX-JUMEX MEXICO",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015259,
+                        "roleName": "JUMEX-JUGOMEX MEXICO",
+                        "roleCode": "JUMEX-JUGOMEX MEXICO",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015260,
+                        "roleName": "JUMEX-BAJA MEXICALI",
+                        "roleCode": "JUMEX-BAJA MEXICALI",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015261,
+                        "roleName": "AMPLIFY AZ CANADA",
+                        "roleCode": "AMPLIFY AZ CANADA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015262,
+                        "roleName": "LASSONDE AZ CANADA",
+                        "roleCode": "LASSONDE AZ CANADA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015263,
+                        "roleName": "BLACK FLY AZ CANADA",
+                        "roleCode": "BLACK FLY AZ CANADA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015136,
+                        "roleName": "Alani Buyer Customer Service",
+                        "roleCode": "ALANI BUYER CUSTOMER SERVICE",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015264,
+                        "roleName": "TORONTO BREWERY AZ CANADA",
+                        "roleCode": "TORONTO BREWERY AZ CANADA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10014996,
+                        "roleName": "CAPELLA",
+                        "roleCode": "CAPELLA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015256,
+                        "roleName": "EUROPE COLDSTOR ARIZ",
+                        "roleCode": "EUROPE COLDSTOR ARIZ",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10013065,
+                        "roleName": "AZ-CANADA",
+                        "roleCode": "AZ-CANADA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015116,
+                        "roleName": "Portal Purchasing Manager",
+                        "roleCode": "PORTAL PURCHASING MANAGER",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10009870,
+                        "roleName": "Customer",
+                        "roleCode": "CUSTOMER",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10009871,
+                        "roleName": "Company Sub Admin",
+                        "roleCode": "COMPANY SUB ADMIN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10010244,
+                        "roleName": "Purchasing Manager",
+                        "roleCode": "PURCHASING MANAGER",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10013064,
+                        "roleName": "ARIZ-JUMEX",
+                        "roleCode": "ARIZ-JUMEX",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10012604,
+                        "roleName": "TEST BUYER",
+                        "roleCode": "TEST BUYER",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10012605,
+                        "roleName": "TEST Purchasing Manager",
+                        "roleCode": "TEST PURCHASING MANAGER",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10012725,
+                        "roleName": "ARIZ-EUROPE",
+                        "roleCode": "ARIZ-EUROPE",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10013367,
+                        "roleName": "HORNELL",
+                        "roleCode": "HORNELL",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015196,
+                        "roleName": "REFRESCO NJ FOR ARIZONA",
+                        "roleCode": "REFRESCO NJ FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10012765,
+                        "roleName": "BUYER-REVISION",
+                        "roleCode": "BUYER-REVISION",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015197,
+                        "roleName": "REFRESCO CARLISLE FOR ARIZONA",
+                        "roleCode": "REFRESCO CARLISLE FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015198,
+                        "roleName": "REFRESCO CLIFFSTAR NY FOR ARIZONA",
+                        "roleCode": "REFRESCO CLIFFSTAR NY FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015199,
+                        "roleName": "REFRESCO. - OK  FOR ARIZONA",
+                        "roleCode": "REFRESCO. - OK  FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10014816,
+                        "roleName": "ALANI NUTRION",
+                        "roleCode": "ALANI NUTRION",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015200,
+                        "roleName": "REFRESCO FL FOR ARIZONA",
+                        "roleCode": "REFRESCO FL FOR ARIZONA",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015057,
+                        "roleName": "Alani Customer Service",
+                        "roleCode": "ALANI CUSTOMER SERVICE",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015058,
+                        "roleName": "CONGO LLC",
+                        "roleCode": "CONGO LLC",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015059,
+                        "roleName": "UP ENERGY",
+                        "roleCode": "UP ENERGY",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015060,
+                        "roleName": "PRIME HYDRATION",
+                        "roleCode": "PRIME HYDRATION",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015061,
+                        "roleName": "PRIME INTL",
+                        "roleCode": "PRIME INTL",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015179,
+                        "roleName": "MAPLE AND USBP",
+                        "roleCode": "MAPLE AND USBP",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015181,
+                        "roleName": "JUMEX and ARIZ Europe",
+                        "roleCode": "JUMEX AND ARIZ EUROPE",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015182,
+                        "roleName": "HORN and HORNELL",
+                        "roleCode": "HORN AND HORNELL",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015183,
+                        "roleName": "AZ CANADA and ARIZ-INTL",
+                        "roleCode": "AZ CANADA AND ARIZ-INTL",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    }
+                ],
+                "allowedActions": [
+                    {
+                        "actionId": 8748134,
+                        "actionName": "Edit",
+                        "actionCode": "EDIT"
+                    },
+                    {
+                        "actionId": 8748133,
+                        "actionName": "Add",
+                        "actionCode": "ADD"
+                    },
+                    {
+                        "actionId": 8748135,
+                        "actionName": "Delete",
+                        "actionCode": "DELETE"
+                    }
+                ],
+                "currentUserRoleActions": [],
+                "isTransitionAllowedToCurrentUser": false
+            },
+            {
+                "approvalStepName": "Buyer Approval",
+                "approvalStepId": 100122,
+                "approvalStepSequence": 2,
+                "entityId": null,
+                "emailCopyTo": "",
+                "hasNextSteps": true,
+                "transitionAllowedRoles": [
+                    10015116,
+                    10009872,
+                    10010244
+                ],
+                "assignedRoles": [
+                    {
+                        "roleId": 10015116,
+                        "roleName": "Portal Purchasing Manager",
+                        "roleCode": "PORTAL PURCHASING MANAGER",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015136,
+                        "roleName": "Alani Buyer Customer Service",
+                        "roleCode": "ALANI BUYER CUSTOMER SERVICE",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10015057,
+                        "roleName": "Alani Customer Service",
+                        "roleCode": "ALANI CUSTOMER SERVICE",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10010244,
+                        "roleName": "Purchasing Manager",
+                        "roleCode": "PURCHASING MANAGER",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    }
+                ],
+                "allowedActions": [
+                    {
+                        "actionId": 8748134,
+                        "actionName": "Edit",
+                        "actionCode": "EDIT"
+                    },
+                    {
+                        "actionId": 8748135,
+                        "actionName": "Delete",
+                        "actionCode": "DELETE"
+                    },
+                    {
+                        "actionId": 8748716,
+                        "actionName": "Approve",
+                        "actionCode": "APPROVE"
+                    }
+                ],
+                "currentUserRoleActions": [],
+                "isTransitionAllowedToCurrentUser": true
+            },
+            {
+                "approvalStepName": "Fulfilled",
+                "approvalStepId": 100140,
+                "approvalStepSequence": 3,
+                "entityId": null,
+                "emailCopyTo": "",
+                "hasNextSteps": true,
+                "transitionAllowedRoles": [
+                    10009872
+                ],
+                "assignedRoles": [
+                    {
+                        "roleId": 10009872,
+                        "roleName": "Admin",
+                        "roleCode": "ADMIN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    }
+                ],
+                "allowedActions": [],
+                "currentUserRoleActions": [],
+                "isTransitionAllowedToCurrentUser": true
+            },
+            {
+                "approvalStepName": "Production Planned",
+                "approvalStepId": 100124,
+                "approvalStepSequence": 4,
+                "entityId": null,
+                "emailCopyTo": "",
+                "hasNextSteps": true,
+                "transitionAllowedRoles": [
+                    10009872
+                ],
+                "assignedRoles": [
+                    {
+                        "roleId": 10009872,
+                        "roleName": "Admin",
+                        "roleCode": "ADMIN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    }
+                ],
+                "allowedActions": [],
+                "currentUserRoleActions": [],
+                "isTransitionAllowedToCurrentUser": true
+            },
+            {
+                "approvalStepName": "Revisions",
+                "approvalStepId": 100125,
+                "approvalStepSequence": 5,
+                "entityId": null,
+                "emailCopyTo": "",
+                "hasNextSteps": true,
+                "transitionAllowedRoles": [
+                    10009872
+                ],
+                "assignedRoles": [
+                    {
+                        "roleId": 10009872,
+                        "roleName": "Admin",
+                        "roleCode": "ADMIN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    }
+                ],
+                "allowedActions": [],
+                "currentUserRoleActions": [],
+                "isTransitionAllowedToCurrentUser": true
+            },
+            {
+                "approvalStepName": "Completed",
+                "approvalStepId": 100126,
+                "approvalStepSequence": 6,
+                "entityId": null,
+                "emailCopyTo": "",
+                "hasNextSteps": false,
+                "transitionAllowedRoles": [],
+                "assignedRoles": [
+                    {
+                        "roleId": 10009872,
+                        "roleName": "Admin",
+                        "roleCode": "ADMIN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    }
+                ],
+                "allowedActions": [],
+                "currentUserRoleActions": [],
+                "isTransitionAllowedToCurrentUser": false
+            },
+            {
+                "approvalStepName": "Cancelled",
+                "approvalStepId": 100142,
+                "approvalStepSequence": 7,
+                "entityId": null,
+                "emailCopyTo": "",
+                "hasNextSteps": false,
+                "transitionAllowedRoles": [],
+                "assignedRoles": [
+                    {
+                        "roleId": 10015116,
+                        "roleName": "Portal Purchasing Manager",
+                        "roleCode": "PORTAL PURCHASING MANAGER",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10009872,
+                        "roleName": "Admin",
+                        "roleCode": "ADMIN",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    },
+                    {
+                        "roleId": 10010244,
+                        "roleName": "Purchasing Manager",
+                        "roleCode": "PURCHASING MANAGER",
+                        "isAlertEnabled": null,
+                        "isNotificationEnabled": null
+                    }
+                ],
+                "allowedActions": [
+                    {
+                        "actionId": 8748716,
+                        "actionName": "Approve",
+                        "actionCode": "APPROVE"
+                    }
+                ],
+                "currentUserRoleActions": [
+                    "APPROVE"
+                ],
+                "isTransitionAllowedToCurrentUser": false
+            }
+        ]
+    }
+}
